@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id" ng-app="winrateTarget">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap.min.css" rel="stylesheet">
+
+        <title>Float Labs</title>
+    </head>
+    <body ng-controller="winrateController">
+        <div class="container mt-5">
+            <div class="text-center">
+                <img src="img/logo_letter.png" class="w-100" alt="Logo Letter" style="max-width: 500px;">
+            </div>
+            <form class="mt-5">
+                <div class="mb-3">
+                  <label for="match" class="form-label">Total Match</label>
+                  <input type="number" ng-model="match" class="form-control" id="match" aria-describedby="emailHelp" ng-change="changeMatch(match)" min="0">
+                  <div id="match" class="form-text">Total pertandingan pada hero</div>
+                </div>
+                <div class="mb-3">
+                  <label for="winrate" class="form-label">Winrate (%)</label>
+                  <input type="number" ng-model="winrate" class="form-control" id="winrate" ng-change="changeWinrate()" min="0" max="100">
+                </div>
+                <div class="mb-3">
+                  <label for="target" class="form-label">Target Winrate (%)</label>
+                  <input type="number" ng-model="target" class="form-control" id="target" ng-change="changeTarget()" min="0" max="100">
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button ng-click="submit()" class="btn btn-primary px-3 py-2">Hitung</button>
+                </div>
+              </form>
+              <div class="figure-caption mt-3" ng-bind-html="pernyataan | unsafe"></div>
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="controller.js"></script>
+    </body>
+</html>
