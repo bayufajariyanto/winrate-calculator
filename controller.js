@@ -29,7 +29,7 @@ app.controller('winrateController', ['$scope', ($scope) =>{
                     wr = wr.toFixed(2)
                 }
                 hasil = match-$scope.match
-                $scope.pernyataan = "Statistik kamu:<br><ul><li>Menang : "+menang1+"</li><li>Kalah : "+kalah1+"</li></ul><br>Kamu harus menang <b>" + hasil + " kali</b> tanpa kalah untuk mendapatkan winrate " + wr + "%"
+                $scope.pernyataan = "Statistik kamu:<br><ul><li>Menang : "+menang1+"</li><li>Kalah : "+kalah1+"</li></ul>Kamu harus menang <b>" + hasil + " kali</b> tanpa kalah untuk mendapatkan winrate " + wr + "%"
             }else{
                 $scope.pernyataan = "Target harus lebih besar dari winrate"
             }
