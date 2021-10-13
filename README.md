@@ -76,7 +76,6 @@ Berikut adalah daftar frameworks/libraries yang digunakan pada project ini.
 
 ## Kontak
 
-Email - bayuf08@gmail.com <br><br>
 [![k-instagram-shield]][k-instagram-url]<br>
 [![k-linkedin-shield]][k-linkedin-url]<br>
 [![k-dribbble-shield]][k-dribbble-url]<br>
