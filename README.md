@@ -75,10 +75,7 @@ Berikut adalah daftar frameworks/libraries yang digunakan pada project ini.
 
 ## Kontak
 
-[![k-instagram-shield]][k-instagram-url]<br>
-[![k-linkedin-shield]][k-linkedin-url]<br>
-[![k-dribbble-shield]][k-dribbble-url]<br>
-[![k-gitlab-shield]][k-gitlab-url]<br>
+[![k-instagram-shield]][k-instagram-url] [![k-linkedin-shield]][k-linkedin-url] [![k-dribbble-shield]][k-dribbble-url] [![k-gitlab-shield]][k-gitlab-url]<br>
 
 Project Link: [https://github.com/bayufajariyanto/winrate-calculator](https://github.com/bayufajariyanto/winrate-calculator)
 
